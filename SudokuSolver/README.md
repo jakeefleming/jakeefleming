@@ -189,7 +189,7 @@ Below is the result I get for running walksat on "rows.cnf". It took only less t
     1 7 5 | 4 2 9 | 6 8 3 
     2 5 3 | 7 1 8 | 9 4 6 
 
-Furthermore, here is the result my walksat finds for puzzle1 which I have also included unsolved. It figures this problem (which only begins with 8 starting values) in just over a minute, using 38567 iterations. I hvae noticed that the time it takes to solve the problem relies heavily on the random seed used to generate the initiale variable booleans. For some seeds, the algorithm caps at the max iterations which I have set to 100,000 and returns a puzzle that is almost complete. In this case though, I have found a seed that solves puzzle one in just over a third of the time.
+Furthermore, here is the result my walksat finds for puzzle1 which I have also included unsolved. It solves this problem (which only begins with 8 starting values) in just over a minute, using 38567 iterations. I hvae noticed that the time it takes to solve the problem relies heavily on the random seed used to generate the initiale variable booleans. For some seeds, the algorithm caps at the max iterations which I have set to 100,000 and returns a puzzle that is almost complete. In this case though, I have found a seed that solves puzzle one in just over a third of the time.
 
     5 0 0 | 0 0 0 | 0 0 0
     0 0 0 | 0 9 0 | 0 0 0
