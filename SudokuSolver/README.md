@@ -1,5 +1,4 @@
 # Sudoku and Propositional Logic
-## Jake Fleming - 10/24/2023
 
 ## Introduction
 
@@ -218,7 +217,6 @@ Furthermore, here is the result my walksat finds for puzzle1 which I have also i
     3 7 8 | 4 1 2 | 6 9 5 
     2 5 6 | 7 3 9 | 4 1 8
 
-## Extensions Beyond Basic Requirements
 
 ### Simulated Annealing 
 
