@@ -1,4 +1,4 @@
-# Robot Motion Planning - Jake Fleming 11/14/23
+# Robot Motion Planning
 
 ## Introduction
 
