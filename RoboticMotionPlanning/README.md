@@ -69,7 +69,7 @@ With the graph now created, we can begin searching for optimal solutions between
 
 ### Query Phase - A* Search
 
-In order to find an optimal path, I reuse my A* search function from the Mazeworld assignment. In order to implement this into this project, it requires I create RobotPlanningProblem.py and RobotPlanningSolution.py, which my astar.py can then operate over. In the PRM function, I assign all of the information about our robot and graph into a RobotPlanningProblem class. Because A* search requires a heuristic, get_successors, and goal_test, I have included these three methods in this file. I reuse the same summation of angular distances as the heuristic for my search, simply extract all neighbors to get successors, and check if the passed state matches the goal state for my goal test.
+In order to find an optimal path, I use the A* search algorithm. In order to implement this into this project, it requires I create RobotPlanningProblem.py and RobotPlanningSolution.py, which my astar.py can then operate over. In the PRM function, I assign all of the information about our robot and graph into a RobotPlanningProblem class. Because A* search requires a heuristic, get_successors, and goal_test, I have included these three methods in this file. I reuse the same summation of angular distances as the heuristic for my search, simply extract all neighbors to get successors, and check if the passed state matches the goal state for my goal test.
 
     def heuristic_fn(self, state):
         return sum([angular_distance(state[i], self.goal_state[i]) for i in range(len(state))])
