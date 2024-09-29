@@ -110,12 +110,12 @@ public class Compression implements Huffman {
 
     public static void main(String[] args) throws IOException {
         Compression compressor = new Compression();
-        Map<Character, Long> frequencyMap = compressor.countFrequencies("inputs/test1.txt");
+        Map<Character, Long> frequencyMap = compressor.countFrequencies("inputs/WarAndPeace.txt");
         BinaryTree<CodeTreeElement> codeTree = compressor.makeCodeTree(frequencyMap);
         Map<Character, String> codeMap = compressor.computeCodes(codeTree);
         System.out.println(codeMap);
-        compressor.compressFile(codeMap, "inputs/test1.txt", "inputs/test1_compressed.txt");
-        compressor.decompressFile("inputs/test1_compressed.txt", "inputs/test1_decompressed.txt", codeTree);
+        compressor.compressFile(codeMap, "inputs/WarAndPeace.txt", "inputs/WarAndPeace_compressed.txt");
+        compressor.decompressFile("inputs/WarAndPeace_compressed.txt", "inputs/WarAndPeace_decompressed.txt", codeTree);
 
     }
 }
