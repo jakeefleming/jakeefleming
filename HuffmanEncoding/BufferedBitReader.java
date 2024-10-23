@@ -1,11 +1,6 @@
 import java.io.*;
 
-/**
- * Reads bits from a file, one at a time.
- * Assumes that the last byte of the file contains the number of
- * valid bits in the previous byte.
- *
- */
+
 public class BufferedBitReader {
 	// Note that we need to look ahead 3 bytes, because when the
 	// third byte is -1 (EOF indicator) then the second byte is a count
