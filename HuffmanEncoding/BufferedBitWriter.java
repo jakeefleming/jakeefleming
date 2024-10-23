@@ -3,11 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * @author Scot Drysdale
- * @author Chris Bailey-Kellogg, Spring 2016, bits are now boolean
- * @author CBK, Fall 2016, max to write (to avoid filling filesystem when have infinite loop)
- */
+
 public class BufferedBitWriter {
 	private byte currentByte;     	// The byte that is being filled
 	private byte numBitsWritten;  	// Number of bits written to the current byte
