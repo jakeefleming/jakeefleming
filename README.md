@@ -6,4 +6,4 @@ My name is Jake Fleming, and I am a computer science and mathematics double majo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jake-fleming-02824a25a/) 
 
 # Tech Stack:
-Python, Java, C, SQL, AWS, VBA/Excel, Linux, Bash, JavaScript
+Python, Java, C, SQL, AWS, VBA/Excel, Bash, JavaScript
