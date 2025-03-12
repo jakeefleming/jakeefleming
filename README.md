@@ -1,5 +1,5 @@
 # About Me:
-My name is Jake Fleming, and I am a computer science and mathematics double major at Dartmouth College graduating in 2026. I am currently employed as a teaching assistant for object-oriented programming. I've studied artificial intelligence, software design, machine learning, security, and more. The repository jakeefleming displays several of the projects I have coded. Email me to see some of my private repositories!
+My name is Jake Fleming, and I am a computer science and mathematics double major at Dartmouth College graduating in 2026. I'm interested in quantitative trading, algo dev, and software enginneering, and I have a strong background in finance. The repository jakeefleming displays several smaller projects I have built. Email me to see some of my larger private repositories!
 
 
 ## Socials:
