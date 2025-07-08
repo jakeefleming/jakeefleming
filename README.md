@@ -1,5 +1,5 @@
 # About Me:
-I am a Senior at Dartmouth College double majoring in mathematics and computer science and interested in quantitative finance and software development.
+I’m a senior at Dartmouth College pursuing a double major in Mathematics and Computer Science, with a strong interest in quantitative finance, algorithmic trading, and software development. I’ve applied these skills through internships in software engineering, investment management, and private equity, and am particularly excited by roles that bridge technical depth with financial impact.
 
 ## Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jake-fleming-02824a25a/) 
