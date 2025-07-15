@@ -5,4 +5,4 @@ I’m a senior at Dartmouth College pursuing a double major in Mathematics and C
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jake-fleming-02824a25a/) 
 
 ## Tech Stack:
-Python, Java, C, C++, JavaScript, Node.js, React, SQL, AWS
+Python, Java, C, C++, JavaScript, Node.js, React, AWS
